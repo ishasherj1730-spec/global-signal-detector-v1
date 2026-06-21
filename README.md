@@ -100,6 +100,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 git clone https://github.com/ishasherj1730-spec/global-signal-detector-v1.git
+
 cd global-signal-detector-v1
 
 2. Install Dependencies
