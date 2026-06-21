@@ -23,15 +23,6 @@ Every day:
  Helping users quickly understand impact, risk, and relevance 
 
 
-## ⚙️ Tech Stack
-
-- Python 
-- Streamlit 
-- Ollama (Gemma local LLM) 
-- datetime module
-- Session State Management (Streamlit)
-
-
 ##  Features
 
 ### 📌 AI-Powered Analysis
@@ -66,6 +57,15 @@ Each analysis includes:
 - Starts fresh investigation
 
 
+## ⚙️ Tech Stack
+
+- Python 
+- Streamlit 
+- Ollama (Gemma local LLM) 
+- datetime module
+- Session State Management (Streamlit)
+
+
 ## 🧩 System Architecture
 
 ```text
@@ -84,7 +84,54 @@ Session Storage (History + Recent Articles)
 UI Display
 ```
 
+🛠️ Installation & Setup
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.10+
+- Ollama
+- Git
+
+---
+
+### 1. Clone the Repository
+
+git clone https://github.com/ishasherj1730-spec/global-signal-detector-v1.git
+cd global-signal-detector-v1
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Install and Run Ollama
+
+Download Ollama from:
+
+https://ollama.com
+
+Pull the required model:
+
+ollama pull gemma4:e4b
+
+Start the model:
+
+ollama run gemma4:e4b
+
+
+4. Launch the Application
+streamlit run sourcecode.py
+
+5. Open in Browser
+Streamlit will automatically open:
+
+http://localhost:8501
+
+You can now paste any article, report, observation, or trend and receive an AI-generated intelligence analysis.
+
 ## Current Limitations
+
 - Uses local LLM inference through Ollama (Gemma).
 - Analysis speed depends on hardware specifications.
 - On CPU-only systems, analysis may take 1–3 minutes for detailed reports.
@@ -93,6 +140,7 @@ UI Display
 
 
 ## Vision
+
 Global Signal Detector is the first step toward building larger AI-driven intelligence systems capable of identifying meaningful signals from large-scale information streams.
 
 Version 1 focuses on manual analysis.
@@ -102,3 +150,18 @@ Future versions will introduce:
 - Signal ranking
 - Trend detection
 - Multi-source intelligence analysis
+
+
+## 👤 Author
+
+**Isha Sherj**
+
+Computer Applications Student | Aspiring AI Engineer 
+
+Focused on:
+- Artificial Intelligence
+- Data Science
+- Agentic Systems
+- Intelligent Product Development
+
+GitHub: https://github.com/ishasherj1730-spec
