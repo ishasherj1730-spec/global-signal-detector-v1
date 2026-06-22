@@ -84,7 +84,27 @@ Session Storage (History + Recent Articles)
 UI Display
 ```
 
-🛠️ Installation & Setup
+
+## 📸 Screenshots
+
+🏠 Home Screen
+
+Shows the main dashboard, article input area, and system status panel.
+![Home Screen](home.png)
+
+
+📋 Analysis Report
+
+Example of AI-generated intelligence analysis.
+![Analysis Report](analysis.png)
+
+
+📚 Analysis History
+
+Shows session memory and recent analysis tracking.
+![Analysis History](history&analysis.png)
+
+
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
